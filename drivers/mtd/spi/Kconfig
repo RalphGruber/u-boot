@@ -269,4 +269,9 @@ config SPL_SPI_FLASH_MTD
 
 	  If unsure, say N
 
+config SPI_MR25HXX
+	bool "MR25HXX SPI MRAM support"
+	help
+		Enable SPI mram support for mr25h40, mr25h10, mr25h256, mr25h128 devices to perform read / write operations.
+
 endmenu # menu "SPI Flash Support"
